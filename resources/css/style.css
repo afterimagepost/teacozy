@@ -58,6 +58,9 @@ nav a {
 
 .content {
   padding-top: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
@@ -87,7 +90,7 @@ nav a {
 
 }
 
-#tea {
+#tea-container {
   width: 1000px;
 
 
