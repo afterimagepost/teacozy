@@ -5,8 +5,11 @@ html {
   color: seashell;
   opacity: 0.9;
   text-align: center;
+}
 
-
+body {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -78,7 +81,7 @@ nav a {
   z-index: 2;
 
 
-/* TEA */  
+/* TEA */
 
 
 }
