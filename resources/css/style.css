@@ -54,9 +54,11 @@ nav a {
 
 .content {
   padding-top: 69px;
-  justify-content: center;
-  align-items: center;
+
 }
+
+
+/* mission */
 
 #mission {
   height: 700px;
@@ -67,7 +69,6 @@ nav a {
   flex-direction: column;
   justify-content: center;
 
-
 }
 
 #mission .our {
@@ -77,16 +78,23 @@ nav a {
   z-index: 2;
 
 
+/* TEA */  
+
+
 }
 
 #tea {
   width: 1000px;
+
+
 
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .item img {
