@@ -22,37 +22,23 @@ header {
   position: fixed;
   justify-content: space-between;
   z-index: 2;
-
-
-
-
 }
 
 header img {
   height: 50px;
   margin-left: 10px;
-
-
-
 }
-
-
-
 
 header nav {
   text-decoration: underline;
   display: flex;
   margin-right: 10px;
-
-
 }
 
 nav a {
   margin: 10px;
   color: seashell;
-
 }
-
 
 /* main */
 
@@ -63,12 +49,10 @@ nav a {
 .content {
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
 }
 
-.child {
-  margin: auto;
-}
+
 
 /* mission */
 
@@ -80,8 +64,6 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
 
 #mission .our {
@@ -89,26 +71,20 @@ nav a {
   background-color: black;
   /*position: relative;*/
   z-index: 1;
-
+}
 
 /* TEA */
-
-
-}
 
 #tea {
   margin: auto;
   width: 1000px;
-
-
-
 }
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
 
 }
 
@@ -126,23 +102,29 @@ nav a {
 
 #locations {
   height: 500px;
-  width: auto;
   background-image: url("../../resources/images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+
+}
+
+#locations .content{
+
 }
 
 #locations h2 {
   margin-bottom: 15px;
-
 }
+
+
 
 .shop {
   background-color: black;
   width: 300px;
-  margin-right: 40px;
-
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .shop h3 p {
