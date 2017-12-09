@@ -56,14 +56,19 @@ nav a {
 
 /* main */
 
+.section {
+  padding-bottom: 50px;
+}
+
 .content {
-  padding-top: 69px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
 }
 
+.child {
+  margin: auto;
+}
 
 /* mission */
 
@@ -76,12 +81,13 @@ nav a {
   flex-direction: column;
   justify-content: center;
 
+
 }
 
 #mission .our {
   width: 100%;
   background-color: black;
-  position: absolute;
+  /*position: relative;*/
   z-index: 1;
 
 
@@ -90,7 +96,8 @@ nav a {
 
 }
 
-#tea-container {
+#tea {
+  margin: auto;
   width: 1000px;
 
 
@@ -99,15 +106,20 @@ nav a {
 
 .gallery {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+
+
 }
 
 .item img {
   height: 200px;
   width: 300px;
-  margin-bottom: 10px;
+  margin: 10px;
+}
+
+.item h4 {
+  margin: 0;
 }
 
 /* locations */
@@ -117,17 +129,17 @@ nav a {
   width: auto;
   background-image: url("../../resources/images/img-locations-background.jpg");
   background-repeat: no-repeat;
-  display: flex;
-  text-align: center;
-  align-items: center;
+  background-size: cover;
+}
 
+#locations h2 {
+  margin-bottom: 15px;
 
 }
 
 .shop {
   background-color: black;
   width: 300px;
-  height: 300px;
   margin-right: 40px;
 
 
